@@ -262,6 +262,9 @@ footer{
 
 /* Responsive */
 @media(max-width:768px){
+  .socials{
+    grid-template-columns:1fr;
+  }
   nav{
     display:flex;
     align-items: center;
