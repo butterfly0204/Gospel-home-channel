@@ -98,8 +98,9 @@ color:var(--yellow);
 /* Buttons */
 .hero-buttons {
   display:flex;
-  gap:15px;cc
+  gap:15px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .btn{
@@ -152,6 +153,7 @@ opacity:.9;
 }
 
 #about .section-title{
+  color:var(--yellow);
   font-size:3rem;
   font-weight:800;
   text-transform:uppercase;
@@ -206,6 +208,24 @@ opacity:.9;
 }
 
 /* SOCIALS */
+.socials{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+  max-width: 600px;
+  margin: 40px auto 0;
+}
+.socials a{
+  display: block;
+  padding: 14px 25px;
+  border: 2px solid var(--yellow);
+  color: var(--yellow);
+  font-weight: 700;
+  border-radius: 30px;
+  text-decoration: none;  
+  transition: all 0.3s ease;
+  text-align: center;
+}
 #connect{
   background:var(--black);
   padding:80px 8%;
@@ -213,8 +233,7 @@ opacity:.9;
 }
 
 #connect .socials a{
-  display:inline-block;
-  margin:10px 15px;
+ 
   padding:12px 25px;
   border:2px solid var(--yellow);
   color:var(--yellow);
