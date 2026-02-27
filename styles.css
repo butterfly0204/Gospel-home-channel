@@ -31,7 +31,8 @@ nav img{
 }
 
 nav h2{
-color:var(--yellow);
+  color: var(--yellow);
+
 }
 
 nav a{
@@ -44,6 +45,14 @@ font-size:14px;
 nav a:hover{
 color:var(--yellow);
 }
+.logo{
+  display:flex;
+  align-items:center;
+  gap:5px; 
+}
+
+
+
 
 /* HERO */
 .hero{
