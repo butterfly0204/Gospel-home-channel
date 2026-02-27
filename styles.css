@@ -119,28 +119,27 @@ margin:auto;
 opacity:.9;
 }
 
-#about {
-  background-color:var(--black); /* bright gospel yellow */
-  color: var(--yellow); /* bold black text */
-  padding: 80px 20px;
-  text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+#about{
+  background-color:var(--black);
+  color:var(--yellow);
+  padding:80px 8%;
+  text-align:center;
 }
 
-#about .section-title {
-  font-size: 3rem;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-bottom: 40px;
+#about .section-title{
+  font-size:3rem;
+  font-weight:800;
+  text-transform:uppercase;
+  letter-spacing:2px;
+  margin-bottom:40px;
 }
 
-#about p {
-  color: var(--white);
-  font-size: 1.2rem;
-  line-height: 1.8;
-  max-width: 800px;
-  margin: 0 auto 25px auto;
+#about p{
+  color:var(--white);
+  font-size:1.2rem;
+  line-height:1.8;
+  max-width:800px;
+  margin:0 auto 25px auto;
 }
 
 
@@ -182,50 +181,57 @@ opacity:.9;
 }
 
 /* SOCIALS */
-.socials{
-margin-top:30px;
+#connect{
+  background:var(--black);
+  padding:80px 8%;
+  text-align:center;
 }
 
-.socials a{
-display:inline-block;
-margin:10px;
-padding:12px 22px;
-border:2px solid var(--yellow);
-color:var(--yellow);
-text-decoration:none;
-border-radius:25px;
-font-size:14px;
+#connect .socials a{
+  display:inline-block;
+  margin:10px 15px;
+  padding:12px 25px;
+  border:2px solid var(--yellow);
+  color:var(--yellow);
+  font-weight:700;
+  border-radius:25px;
+  text-decoration:none;
+  transition:all 0.3s ease;
 }
 
-.socials a:hover{
-background:var(--yellow);
-color:#000;
+#connect .socials a:hover{
+  background:var(--yellow);
+  color:#000;
+  transform:scale(1.05);
 }
 
 /* FOOTER */
 footer{
-background:#000;
-border-top:2px solid var(--yellow);
-text-align:center;
-padding:25px;
-margin-top:40px;
-font-size:14px;
+  background:#000;
+  border-top:2px solid var(--yellow);
+  text-align:center;
+  padding:25px 8%;
+  color:var(--white);
+  font-weight:700;
+  text-transform:uppercase;
 }
 
 /* MOBILE */
 @media(max-width:768px){
-
-.hero h1{
-font-size:32px;
-}
-
-nav{
-flex-direction:column;
-gap:10px;
-}
-
-.cards{
-flex-direction:column;
-align-items:center;
-}
+  nav{
+    flex-direction:column;
+    gap:10px;
+  }
+  .hero h1{
+    font-size:2.5rem;
+  }
+  .cards{
+    flex-direction:column;
+    align-items:center;
+  }
+  .hero-buttons{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+  }
 }
