@@ -26,6 +26,9 @@ padding:20px 8%;
 background:#000;
 border-bottom:2px solid var(--yellow);
 }
+nav img{
+  height: 60px;
+}
 
 nav h2{
 color:var(--yellow);
